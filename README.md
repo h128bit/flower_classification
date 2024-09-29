@@ -1,13 +1,15 @@
-<h1>Flower classification</h1><br>
+<h1>Flower classification</h1>
 
-<nav>
+The model is trained to classify 16 flower classes. More about <a href="https://www.kaggle.com/datasets/l3llff/flowers">dataset</a>.
+Training the model: <a href="https://www.kaggle.com/code/honeybadger128bit/flower-classification">this</a>.
+
+
 Content:
 <ul>
 <li><a href="#flaskapi">Flask app API</a></li> 
 <li><a href="#clfmodel">Classification model API</a></li>
 <li><a href="#appdocs">App documentation</a></li>
 </ul>
-</nav>
 
 <div id="flaskapi">
 <h3><u>Flask app API</u></h3>
