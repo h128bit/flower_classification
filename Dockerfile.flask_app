@@ -1,0 +1,19 @@
+FROM python:3.10
+
+WORKDIR usr/app/flower_classification
+
+COPY requirements_flask.txt requirements.txt
+COPY app app
+COPY flask_app flask_app
+
+RUN pip install --upgrade pip && pip3 install --default-timeout=100 -r requirements.txt
+
+WORKDIR flask_app
+CMD flask --app flask_app run  
+
+EXPOSE 5000
+
+
+
+
+

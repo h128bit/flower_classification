@@ -1,0 +1,7 @@
+torch~=2.4.1
+torchvision~=0.19.1
+toml~=0.10.2
+numpy~=2.1.0
+scikit-learn~=1.5.2
+flask~=3.0.3
+pillow~=10.4.0
